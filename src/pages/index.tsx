@@ -1,5 +1,5 @@
 import * as React from "react";
-import { FormEvent, useState } from "react";
+import { useState } from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import LoginComponent from "../components/login";
 

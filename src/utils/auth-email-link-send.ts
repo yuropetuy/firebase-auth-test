@@ -1,7 +1,7 @@
+import * as React from "react";
 import { getAuth, sendSignInLinkToEmail } from "firebase/auth";
 import auth from "./firebase-init";
 import actionCodeSettings from "./auth-email-link-actioncode-settings";
-import * as React from "react";
 
 interface sendEmailProps {
   email: string;
